@@ -30,7 +30,7 @@ function rgbToHex(r, g, b) {
 function generatePalette() {
     palette.innerHTML = "";
 
-    for (let i = 0; i < 8; i++) {
+    for (let i = 0; i < 5; i++) {
         const { r, g, b } = randomRGB(toneSelect.value);
         let color;
 
@@ -55,4 +55,6 @@ function generatePalette() {
 
 }
 
-button.addEventListener("click", generatePalette)
+button.addEventListener("click", generatePalette);
+
+generatePalette();
