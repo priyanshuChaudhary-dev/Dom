@@ -1,0 +1,27 @@
+.btn {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    /* background-color: rgb(68, 68, 206); */
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.dark {
+    background-color: black;
+}
+
+.dark button {
+    background-color: white;
+    color: black;
+}
