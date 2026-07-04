@@ -3,7 +3,7 @@ const addBtn = document.getElementById("addBtn");
 const list = document.getElementById("list");
 
 
-addBtn.addEventListener("click", "keydown", () => {
+addBtn.addEventListener("click", () => {
     if (input.value === "") {
         alert("Enter the item");
         return;
